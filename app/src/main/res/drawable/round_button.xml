@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="0.7dp"
+                        android:color="@color/black" />
+                    <size
+                        android:width="110dp"
+                        android:height="20dp" />
+                    <corners android:radius="17dp" />
+                    <solid android:color="#ffffff" />
+                </shape>
+            </item>
+
+            <item android:drawable="@drawable/expand_more"
+                android:width="24dp" android:height="24dp"
+                android:gravity="center" android:start="60dp" android:top="1dp">
+            </item>
+        </layer-list>
+    </item>
+</selector>

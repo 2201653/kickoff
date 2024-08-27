@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MatchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Dropdown Menus -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_city"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/cities"
+                android:background="@drawable/round_button"
+                android:textAlignment="center"/>
+
+            <Spinner
+                android:id="@+id/spinner_test"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/tests"
+                android:background="@drawable/round_button"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_level"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/level"
+                android:background="@drawable/round_button"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinner_gender"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/genders"
+                android:background="@drawable/round_button"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="모든 매치"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1C1C1C" />
+
+        <!-- Match Information -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="10:00"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="05월20일"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성남 분당 풋살파크"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_apply"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="신청하기"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/choice_button" />
+        </LinearLayout>
+
+        <!-- Match Information -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="10:00"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="05월20일"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성남 분당 풋살파크"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_apply2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="신청하기"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/choice_button" />
+        </LinearLayout>
+
+        <!-- Match Information -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="10:00"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="05월20일"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성남 분당 풋살파크"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_apply3"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="신청하기"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/choice_button" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

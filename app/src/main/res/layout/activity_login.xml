@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#099F4D">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="킥-오프와\n함께 하실 준비되셨나요?"
+        android:textSize="24sp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="150dp" />
+
+    <Button
+        android:id="@+id/kakao_login_button"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:text="카카오 로그인"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="@drawable/kakaobg"
+        android:textColor="@android:color/black"
+        android:drawableStart="@drawable/ic_kakao_icon"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/google_login_button"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:text="구글 로그인"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="@drawable/googlebg"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="14dp"
+        android:drawableLeft="@drawable/ic_google_icon"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인 오류시 문의 abcd@naver.com"
+        android:textSize="12sp"
+        android:textColor="#84CFA6"
+        android:gravity="center"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>

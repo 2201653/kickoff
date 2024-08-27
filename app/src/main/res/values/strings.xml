@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">forwardProject</string>
+    <!-- Other strings -->
+    <string-array name="cities">
+        <item>지역</item>
+        <item>서울</item>
+        <item>경기</item>
+    </string-array>
+    <string-array name="tests">
+        <item>전체</item>
+        <item>테스트</item>
+    </string-array>
+    <string-array name="level">
+        <item>레벨</item>
+        <item>루키</item>
+    </string-array>
+    <string-array name="genders">
+        <item>성별</item>
+        <item>여자</item>
+        <item>남자</item>
+    </string-array>
+</resources>
